@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Ecobee",
+  "description": "This extension tracks your Ecobee thermostat",
+  "version": "0.9.6",
+
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "jquery-2.1.3.min.js",
+      "env.js",
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "ecobeeicon.png"
+  },
+  "permissions": [
+    "tabs",
+    "identity",
+    "https://api.ecobee.com/"
+  ]
+}
