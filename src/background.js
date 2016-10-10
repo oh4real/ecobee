@@ -1,5 +1,6 @@
 'use strict';
 var timerId;
+
 function getExtensionId() {
 	return chrome.runtime.id;
 }
